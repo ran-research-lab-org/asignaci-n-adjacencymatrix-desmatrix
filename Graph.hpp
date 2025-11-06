@@ -77,7 +77,7 @@ public:
 
     bool isInfluencer(int u) const
     {
-        int indegree_U = this->inDegree(u);
+        int indegree_U = inDegree(u);
 
         // calcular entradas de cada columna u
         // y se compara con el argumento
